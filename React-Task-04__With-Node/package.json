@@ -1,0 +1,27 @@
+{
+  "name": "task-03_users-crud---with-node",
+  "version": "1.0.0",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VishalP130821/task-03_users-crud---with-Node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VishalP130821/task-03_users-crud---with-Node/issues"
+  },
+  "homepage": "https://github.com/VishalP130821/task-03_users-crud---with-Node#readme",
+  "dependencies": {
+    "axios": "^1.5.0",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.4.5"
+  }
+}
