@@ -1,0 +1,111 @@
+/* UsersList.css */
+
+.userList {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.addUser {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  margin-right: 980px;
+}
+
+.addUser a {
+  text-decoration: none;
+  color: white;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.username {
+  flex-grow: 1;
+  font-weight: bold;
+}
+
+.userAge {
+  font-size: 14px;
+  color: #888;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.button.delete {
+  background-color: #dc3545;
+}
+
+.button.view-detail {
+  background-color: #007bff;
+}
+
+
+.add-sort-option{
+  justify-content: end;
+}
+
+.delete__modal {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.delete__modal label {
+  font-weight: bold;
+}
+
+.delete__modal br {
+  margin: 10px 0;
+}
+
+.delete__modal p {
+  color: red;
+  font-weight: bold;
+}
+
+.no-users-found{
+  text-align: center;
+  margin-top: 150px;
+  color: #f13d4c;
+}
+/* .pagination{
+  display: flex;
+  justify-content: center;
+  background-color: #28a745;
+  margin-top: 100px;
+  padding: 0;
+}
+
+ */

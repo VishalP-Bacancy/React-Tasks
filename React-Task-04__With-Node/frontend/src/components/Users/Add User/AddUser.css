@@ -1,0 +1,104 @@
+/* AddUser.css */
+.add-user {
+    max-width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f5f5f5;
+  }
+  
+  .form-control {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 8px 12px;
+    background-color: #0e9caf;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .button:hover{
+    background-color: #11226d;
+  }
+
+  .backButton{
+    background-color: #0e9caf;
+    margin-left: 76px;
+    /* padding: 0 20px; */
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .backButton:hover{
+    background-color: #122fb3;
+  }
+  
+
+  .add-btn{
+    background-color: #30383f;
+  }
+
+  .add-btn:hover{
+    background-color: #0a0a0a;
+  }
+
+
+
+
+
+
+
+
+
+  /* AddUser.css */
+.error-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #e9e1e1;
+  border: 2px solid #d32f2f;
+  padding: 20px;
+  box-shadow: 4px 10px 8px rgb(0, 0, 0);
+  text-align: center;
+}
+
+.error-modal h2 {
+  margin: 0;
+  color: #d32f2f;
+}
+
+.error-message {
+  margin-top: 10px;
+}
+
+.error-button {
+  margin-top: 20px;
+  margin-left: 25px;
+  background-color: #d32f2f;
+  color: white;
+  border: none;
+  padding: 8px 15px; /* Adjust the padding to control the button size */
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+.error-button:hover {
+  background-color: #9c2626;
+}

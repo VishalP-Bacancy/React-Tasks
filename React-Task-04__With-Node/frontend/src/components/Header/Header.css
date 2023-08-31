@@ -1,0 +1,60 @@
+/* Style for the header */
+header {
+    background-color: #333;
+    color: #fff;
+    /* padding: 1rem; */
+  }
+  
+  /* Style for the brand */
+  .brand a {
+    font-size: 1.2rem;
+    color: #fff;
+    text-decoration: none;
+    padding-left: 24px;
+  }
+  
+  /* Style for the navigation links */
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin-top: 0.5rem;
+    padding-right: 111px;
+    text-decoration: none;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Hover effect for navigation links */
+  .nav-links a:hover {
+    color: #FFC6AC;
+  }
+  
+  .searchBar{
+    margin-top: 10px;
+    /* display: flex;
+    flex-direction: row; */
+  }
+
+  .searchBar-form{
+    display: flex;
+    /* justify-content: space-between; */
+  }
+
+  .searchButton{
+    margin-left: 10px;
+    /* padding: 1px ; */
+  }
+
+  .search-reset-button{
+    margin-left: 10px;
+    padding: 0 10px;
+    background-color: #61677A;
+  }
+
+  .search-reset-button:hover{
+    background-color: rgb(34, 26, 26);
+  }

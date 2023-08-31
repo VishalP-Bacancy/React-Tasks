@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Preahvihear&family=Shadows+Into+Light&display=swap');
+
+.homePage{
+    background-color: #b5c6de;
+    background-image: -webkit-linear-gradient(79deg, #A682E2 66%, #ced2e1 30%);
+    min-height: 93vh;
+    /* display: flex; */
+    padding: 10px 0;
+}
+
+.title{
+    font-size: 66px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 88vh;
+    color: #1f1f1f;
+    font-family: 'Preahvihear', sans-serif;
+    font-size: 96px;
+    font-weight: bold;
+}

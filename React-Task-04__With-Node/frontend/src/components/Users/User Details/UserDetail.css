@@ -1,0 +1,24 @@
+.userDetail {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  
+  .userDetail h2 {
+    margin-bottom: 10px;
+  }
+  
+  .userDetail p {
+    margin: 8px 0;
+  }
+  
+  .back-button {
+    margin-left: 10px;
+    padding: 10px 66px;
+  }
+
+  .userDetail-title{
+    color: rgb(108, 15, 15);
+  }
